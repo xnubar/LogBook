@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="SignUp">Qeydiyyat</system:String>
+    <system:String x:Key="SignIn">Daxil ol</system:String>
+    <system:String x:Key="Language">Dil</system:String>
+    <system:String x:Key="ForgotPassword">Şifrəni unutdum.</system:String>
+    <system:String x:Key="MakePasswordVisibleInvisible">Şifrəni görünən/görünməz et.</system:String>
+    <system:String x:Key="Username">İSTİFADƏÇİ ADI</system:String>
+    <system:String x:Key="Password">ŞİFRƏ</system:String>
+    <system:String x:Key="RePassword">TƏKRAR ŞİFRƏ</system:String>
+    <system:String x:Key="Name">AD</system:String>
+    <system:String x:Key="Surname">SOYAD</system:String>
+    <system:String x:Key="Email">EMAİL</system:String>
+    <system:String x:Key="DateBirth">DOĞUM TARİXİ</system:String>
+    <system:String x:Key="Gender">CİNS</system:String>
+    <system:String x:Key="Role">ROL</system:String>
+    <system:String x:Key="StudentRole">TƏLƏBƏ</system:String>
+    <system:String x:Key="TeacherRole">MÜƏLLİM</system:String>
+    <system:String x:Key="ProfilePhoto">ŞƏKİL YÜKLƏMƏK</system:String>
+    <system:String x:Key="Submit">TAMAMLA</system:String>
+    <system:String x:Key="Rules">QAYDALARI QƏBUL EDİRƏM.</system:String>
+    <system:String x:Key="Stds">TƏLƏBƏLƏR</system:String>
+    <system:String x:Key="Feedbacks">TƏLƏBƏLƏR HAQQINDA ŞƏRHLƏR</system:String>
+    <system:String x:Key="Attendance">DAVAMİYYƏT</system:String>
+    <system:String x:Key="Message">İSMARIC</system:String>
+    <system:String x:Key="LogOutProfile">PROFİLDƏN ÇIXMAQ</system:String>
+    <system:String x:Key="Bell">BİLDİRİŞLƏR</system:String>
+    <system:String x:Key="Menu">MENYU</system:String>
+    <system:String x:Key="Theme">TEMA</system:String>
+    <system:String x:Key="Confirmation">EMAİL TƏSDİQİ</system:String>
+    <system:String x:Key="ConfirmationCode">TƏSDİQ KODU</system:String>
+    <system:String x:Key="SendEmail">EMAİL GÖNDƏR</system:String>
+</ResourceDictionary>

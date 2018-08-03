@@ -1,0 +1,34 @@
+﻿<Application x:Class="lBook.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:lBook"
+              xmlns:viewmodel="clr-namespace:lBook.ViewModel"
+             xmlns:views="clr-namespace:lBook.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type viewmodel:LoginViewModel}">
+                <views:LoginView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:RegisterViewModel}">
+                <views:RegisterView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:TeacherViewModel}">
+                <views:TeacherPageView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:AdminViewModel}">
+                <views:AdminPage/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:ForgotPasswordViewModel}">
+                <views:ForgotPasswordView/>
+            </DataTemplate>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+                <ResourceDictionary Source="Resources/lang.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="SignUp">SIGN UP</system:String>
+    <system:String x:Key="SignIn">SIGN IN</system:String>
+    <system:String x:Key="Language">LANGUAGE</system:String>
+    <system:String x:Key="ForgotPassword">Forgot Password?</system:String>
+    <system:String x:Key="MakePasswordVisibleInvisible">Make password visible/invisible</system:String>
+    <system:String x:Key="Username">USERNAME</system:String>
+    <system:String x:Key="Password">PASSWORD</system:String>
+    <system:String x:Key="RePassword">RE-PASSWORD</system:String>
+    <system:String x:Key="Name">NAME</system:String>
+    <system:String x:Key="Surname">SURNAME</system:String>
+    <system:String x:Key="Email">EMAIL</system:String>
+    <system:String x:Key="DateBirth">DATE BIRTH</system:String>
+    <system:String x:Key="Gender">GENDER</system:String>
+    <system:String x:Key="Role">ROLE</system:String>
+    <system:String x:Key="StudentRole">STUDENT</system:String>
+    <system:String x:Key="TeacherRole">TEACHER</system:String>
+    <system:String x:Key="ProfilePhoto">LOAD A PHOTO</system:String>
+    <system:String x:Key="Submit">SUBMIT</system:String>
+    <system:String x:Key="Rules">I ACCEPT THE RULES.</system:String>
+    <system:String x:Key="Stds">STUDENTS</system:String>
+    <system:String x:Key="Feedbacks">FEEDBACK ABOUT STUDENTS</system:String>
+    <system:String x:Key="Attendance">ATTENDANCE</system:String>
+    <system:String x:Key="Message">MESSAGE</system:String>
+    <system:String x:Key="LogOutProfile">LOG OUT</system:String>
+    <system:String x:Key="Bell">NOTIFICATIONS</system:String>
+    <system:String x:Key="Menu">MENU</system:String>
+    <system:String x:Key="Theme">THEME</system:String>
+    <system:String x:Key="Confirmation">EMAIL CONFIRMATION</system:String>
+    <system:String x:Key="ConfirmationCode">CONFIRMATION CODE</system:String>
+    <system:String x:Key="SendEmail">SEND EMAIL</system:String>
+</ResourceDictionary>
